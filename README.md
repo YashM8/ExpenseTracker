@@ -2,4 +2,4 @@
 
 Expense tracker that tracks and visualizes expenditure. 
 
-![](https://github.com/[YashM8]/[Expense_Tracker_]/blob/[branch]/screenshot.png?raw=true)
+![helo](https://github.com/[YashM8]/[Expense_Tracker_]/blob/[branch]/screenshot.png?raw=true)
