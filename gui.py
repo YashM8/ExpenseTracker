@@ -57,7 +57,7 @@ def plot_expenses():
         daily_totals = tracker.calculate_daily_totals(tracker.get_expenses())
         tracker.plot_expenses(daily_totals, from_date, to_date)
 
-        plot_image = ImageTk.PhotoImage(Image.open("plot.png"))
+        plot_image = ImageTk.PhotoImage(Image.open("plot.jpg"))
         plot_label = tk.Label(window, image=plot_image)
         plot_label.pack()
 

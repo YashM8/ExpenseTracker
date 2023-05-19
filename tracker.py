@@ -73,7 +73,7 @@ def plot_expenses(daily_totals, from_date='', to_date=''):
     plt.ylabel('Total Cost')
     plt.title('Daily Total Costs')
     plt.xticks(rotation=45)
-    plt.savefig("plot.png")
+    plt.savefig("plot.jpg")
 
 
 def main():
