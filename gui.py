@@ -33,7 +33,7 @@ def view_expenses():
     total_cost = 0
 
     for expense in expenses:
-        description = expense["description"]
+        description = expense["description"].capitalize()
         cost = expense["cost"]
         date = expense["date"]
         tree.insert("", tk.END, values=(description, cost, date))
